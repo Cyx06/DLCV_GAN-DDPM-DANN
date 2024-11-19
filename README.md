@@ -1,27 +1,19 @@
-# DLCV-Fall-2022-HW2
-Please click [this link](https://docs.google.com/presentation/d/1A38mJUAfDo-4yYzy6UCBZrEo3aE50ceO/edit?usp=sharing&ouid=107585355306558125830&rtpof=true&sd=true) to view the slides of HW2
+# Face Generation
 
-## Usage
-To start working on this assignment, you should clone this repository into your local machine by using the following command.
+This project from DLCV(Deep Learing of Computer Vision) hw2.
 
-    git clone https://github.com/DLCV-Fall-2022/hw2-<username>.git
-Note that you should replace `<username>` with your own GitHub username.
+After excute step below, the script will generate images of human face shows below.
+![Template](https://raw.githubusercontent.com/Cyx06/DLCV_GAN-DDPM-DANN/main/template.png)
 
-## Submission Rules
-### Deadline
-2022/10/31 (Mon.) 23:59 (GMT+8)
+## How to Use This Code
 
-### Packages
-This homework should be done using python3.8. For a list of packages you are allowed to import in this assignment, please refer to the requirments.txt for more details.
+### Prerequisites
 
-You can run the following command to install all the packages listed in the requirements.txt:
+1. **Install Required Packages**: 
+   ```bash
+   pip install requirements.txt
+    ```
+2. **Run script as shown below**:
+    bash hw2_1.sh \$1
 
-    pip3 install -r requirements.txt
-
-Note that using packages with different versions will very likely lead to compatibility issues, so make sure that you install the correct version if one is specified above. E-mail or ask the TAs first if you want to import other packages.
-
-# Q&A
-If you have any problems related to HW2, you may
-- Use TA hours
-- Contact TAs by e-mail ([ntudlcv@gmail.com](mailto:ntudlcv@gmail.com))
-- Post your question under hw2 FAQ section in FB group.(But TAs won't answer your question on FB.)
+    $1: path to the directory for your 1000 generated images (e.g. “~/hw2/GAN/output_images”)
